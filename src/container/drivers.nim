@@ -1,7 +1,7 @@
 import std/[os, logging, posix]
 
 const
-  BINDER_DRIVERS = ["anbox-binder", "puddlejumper", "bonder", "binder"]
+  BINDER_DRIVERS = ["anbox-binder", "puddlejumper", "bonder", "binder", "binderfs"]
   VNDBINDER_DRIVERS = ["anbox-vndbinder", "vndpuddlejumper", "vndbonder", "vndbinder"]
   HWBINDER_DRIVERS = ["anbox-hwbinder", "hwpuddlejumper", "hwbonder", "hwbinder"]
 
